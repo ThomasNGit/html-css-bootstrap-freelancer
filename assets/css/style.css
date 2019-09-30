@@ -1,0 +1,19 @@
+/* regole generali di pagina */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* stile navbar */
+.navbar{
+  background-color: #2C3E50;
+  padding: 20px;
+}
+
+.navbar h2{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
