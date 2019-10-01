@@ -38,6 +38,48 @@
   padding: 10px;
 }
 
+.dropbtn{
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1abc9c;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  color: #fff;
+  position: absolute;
+  background-color: #1abc9c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  display: block;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dropdown-content a:hover{
+  background-color: #5F5F5F;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
 /* stile seconda sezione */
 .green-bg{
   background-color: #1ABC9C;
@@ -150,9 +192,11 @@
   margin-bottom: 40px;
   font-size: 20px;
 }
+
 .form input:focus{
   outline: none;
 }
+
 .send{
   margin: 5% 0;
 }
