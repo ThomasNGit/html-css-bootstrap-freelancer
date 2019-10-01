@@ -88,6 +88,50 @@
   margin: 20px auto;
 }
 
+/* stile sezione about */
+#about{
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
+#about h2{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 55px;
+}
+
+#about p{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+/* stile link */
+.button{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.dwl{
+  padding-right: 10px;
+}
+
+.button a{
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.button a:hover{
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+
 /* clearfix */
 .row:after{
   content: "";
