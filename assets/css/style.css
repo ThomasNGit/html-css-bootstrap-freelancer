@@ -20,7 +20,7 @@
 
 .navlist li{
   display: inline-block;
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 
 .navlist a{
@@ -28,6 +28,14 @@
   color: #fff;
   font-weight: bold;
   font-size: 16px;
+}
+
+.navlist a:hover{
+  color: #1abc9c;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
 }
 
 /* stile seconda sezione */
@@ -54,11 +62,11 @@
 }
 
 .who{
-  padding-top: 30px;
-  margin-bottom: 50px;
+  padding-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 
