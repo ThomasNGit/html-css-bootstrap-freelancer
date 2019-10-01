@@ -150,7 +150,9 @@
   margin-bottom: 40px;
   font-size: 20px;
 }
-
+.form input:focus{
+  outline: none;
+}
 .send{
   margin: 5% 0;
 }
